@@ -274,7 +274,7 @@ CONFIG['batch_size'] = 8
 
 <div align="center">
 
-### ❤️ Built for Medical AI
+### Built for Medical AI
 
 </div>
 
