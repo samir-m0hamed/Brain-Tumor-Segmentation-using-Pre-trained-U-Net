@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Results
+##  📖 Results
 
 | Metric | Value |
 |--------|-------|
@@ -62,7 +62,7 @@ Brain-Tumor-Segmentation-using-UNet/
 
 ---
 
-## 📌 Architecture
+## 🧩 Architecture
 
 ### Model: U-Net + ResNet34 Encoder
 
@@ -119,7 +119,7 @@ CONFIG = {
 
 ---
 
-## 📌 Training Pipeline
+## 📈 Training Pipeline
 
 ### Data Preparation
 1. Load COCO annotations  
@@ -198,7 +198,7 @@ mask = (torch.sigmoid(output) > 0.5).int()
 
 ---
 
-## 📌 Performance
+##  🎯 Performance
 
 - Dice: ~78%
 - IoU: ~64%
@@ -212,7 +212,7 @@ mask = (torch.sigmoid(output) > 0.5).int()
 
 ---
 
-## 📌 Hardware
+##  💻 Hardware requirments
 
 ### Minimum
 - CPU i5
@@ -238,7 +238,7 @@ CONFIG['batch_size'] = 8
 
 ---
 
-## 📌 References
+##  📖 References
 
 - U-Net Paper  
 - ResNet Paper  
