@@ -22,22 +22,11 @@
 
 ## 🚀 Quick Start
 
-### 🔧 Prerequisites
+### ▶️ Prerequisites 
 - Python 3.8+
 - CUDA 11.8+ (optional)
 - 8GB+ RAM (CPU) or 4GB+ VRAM (GPU)
 
-### 📥 Installation
-
-```bash
-git clone https://github.com/samir-m0hamed/Brain-Tumor-Segmentation-using-Pre-trained-U-Net.git
-cd Brain-Tumor-Segmentation-using-Pre-trained-U-Net
-
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-pip install torch torchvision opencv-python segmentation_models_pytorch matplotlib pycocotools
-```
 
 ### ▶️ Run Training
 
