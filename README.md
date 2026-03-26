@@ -30,25 +30,22 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/samir-m0hamed/brain-tumor-segmentation.git
-cd brain-tumor-segmentation
+git clone https://github.com/samir-m0hamed/Brain-Tumor-Segmentation-using-Pre-trained-U-Net.git
+cd Brain-Tumor-Segmentation-using-Pre-trained-U-Net
 
 # Create virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install torch torchvision opencv-python segmentation_models_pytorch matplotlib pycocotools
 ```
 
 ### Run Training
 
 ```bash
 # Training with Jupyter Notebook
-jupyter notebook Brain_Tumor_Segmentation_Colab.ipynb
-
-# Or run the Python script
-python script_fixed.py
+jupyter notebook "Brain Tumor Segmentation.ipynb"
 ```
 
 ---
@@ -243,9 +240,7 @@ This project includes critical fixes from the original implementation:
 ### Training from Scratch
 
 ```python
-# Open Brain_Tumor_Segmentation_Colab.ipynb and run all cells
-# Or run the script:
-python script_fixed.py
+# Open "Brain Tumor Segmentation.ipynb" and run all cells
 ```
 
 ### Using Pre-trained Model
@@ -399,10 +394,10 @@ If you use this project, please cite:
 
 ```bibtex
 @software{2026_brain_tumor_segmentation,
-  author = {Your Name},
+  author = {Samir Mohamed},
   title = {Brain Tumor Segmentation using Pre-trained U-Net},
   year = {2026},
-  url = {https://github.com/yourusername/brain-tumor-segmentation}
+  url = {https://github.com/samir-m0hamed/Brain-Tumor-Segmentation-using-Pre-trained-U-Net}
 }
 ```
 
@@ -429,9 +424,8 @@ Contributions are welcome! Please:
 ## 📧 Contact & Support
 
 For questions, suggestions, or issues:
-- 📧 Email: your.email@example.com
-- 🐛 Report bugs: [GitHub Issues](https://github.com/yourusername/brain-tumor-segmentation/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/brain-tumor-segmentation/discussions)
+- � Report bugs: [GitHub Issues](https://github.com/samir-m0hamed/Brain-Tumor-Segmentation-using-Pre-trained-U-Net/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/samir-m0hamed/Brain-Tumor-Segmentation-using-Pre-trained-U-Net/discussions)
 
 ---
 
